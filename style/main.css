@@ -1,0 +1,223 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color: white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/imagem/p.jpg');
+
+    height:400px;
+    background-size: cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Tahoma', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+.caroosel-filmesx{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+
+/* buscar */
+
+#divBusca{
+    background-color:#b68383;
+    border:solid 2px #a05f5f;
+    border-radius:10px;
+    width:200px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:25px;
+    
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:150px;
+  }
+
+  #txtBusca :hover{
+      background-color: transparent;
+      border: none;
+      
+      width: 30;
+      height: 30;
+
+}
+.pesquisa .img {
+    background-color: transparent;
+    border: none;
+    
+   
+
+}
+
+
+
+.pesquisa .btnBusca{
+    border:none;
+    background:transparent;
+    
+    
+  }
+
+  .pesquisa .btnBusca :hover{
+    border:none;
+    background:transparent;
+    width:20px;
+    height:20px;
+    
+    
+  }
+  
+  #divBusca img{
+    border: none;
+    float:left;
+    padding-left: 5px;
+    padding-top: 5PX;
+  }
+
+/* rodape */
+.rodape{
+
+    color: rgb(99, 100, 100);
+    font-size: 12px;
+    
+   
+}
+.rodape a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+.rodape a:hover{
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+
+    <!--responsividade-->
+
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+
+   
+</head>
+<body>
+    <header>
+        
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <!--pesquisa-->
+            <div id="divBusca">
+                <ul class="rw dv"> 
+                    
+                        <form id="search" class="pesquisa" method="get" action="http://127.0.0.1:5500/index.html"> 
+                            <input id="txtBusca" type="text" name="s" placeholder="Buscar..." autocomplete="off"> 
+                            <button type="submit" class="btnBusca"> 
+                                <img src="imagem/lupa.png"  width="25" height="25" alt="Buscar..."/>  
+                            </button> 
+                            <ul id="res-sj_h" class="sub-menu" style="display: none;">
+                            </ul> 
+                        </form> 
+                    
+                </ul>
+               <!-- <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                <button id="btnBusca">
+                    <img src="imagem/lupa.png"  width="25" height="25" alt="Buscar..."/>
+                </button>-->
+            </div>
+                <!--menu-->
+            <nav>
+                <a href="http://127.0.0.1:5500/index.html">Inicio</a>
+                <a href="http://127.0.0.1:5500/series/series.html">Séries</a>
+                <a href="http://127.0.0.1:5500/filmesx/filmex.html">Filmes</a>
+                <a href="http://127.0.0.1:5500/documentarios/documentarios.html">Documentários</a>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Lei & Ordem: Unidade de Vítimas Especiais.</h3>
+                <p class="descricao">Detetives que fazem parte da Unidade de Vítimas Especiais da polícia de Nova York ... </p>
+                <div class="botoes">
+                    <a href="https://www.facebook.com/318Gamer/" target="_blank">
+                         <button role="button" class="botao">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                    </a> 
+                    
+                    <a href="http://127.0.0.1:5500/INFORMA%C3%87%C3%95ES/INFO.HTML" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="fas fa-info-circle"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>     
+                </div>
+
+            </div>
+
+        </div>
+        
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="box-filme" src="imagem/1.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/2.jpg" alt="hotel" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/5.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="imagem/10.jpg" alt="" srcset="">
+                </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="rodape" style="text-align: center;">
+            Imagens meramente ilustrativas e utilizadas apenas para fins de estudos,
+        Produzido  por <a href="https://github.com/MoniqueTls">Monique Teles</a>
+        </div>
+        
+        
+    </footer>
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+ 
+
+ 
+</body>
+</html>

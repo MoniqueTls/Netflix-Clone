@@ -1,0 +1,196 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{  
+    
+    margin:20;
+    padding:0;
+    box-sizing: border-box; 
+   
+}
+
+
+
+main span a {
+    text-decoration:none;
+    color:#fff;
+    margin-right: 10px;
+    
+}
+
+main span a:hover{
+    color: rgba(255, 255, 255, 0.521);
+
+}
+
+
+main div a {
+    text-decoration:none;
+    color:#fff;
+    margin-right: 10px;
+}
+
+main div a:hover{
+    color: rgba(255, 255, 255, 0.521);
+
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   font-family: 'Arial', Times, serif;
+   color: white;
+   
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+/*filme principal*/
+.filme-principal{
+    font-size:16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('/imagem/p.jpg');
+
+    height:855px;
+    background-size: cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .facts{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+div.facts span.certification {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+   
+}
+
+
+
+.filme-principal .titulo{
+    margin-top: 15;
+    
+    font-size: 40px;
+    font-family: 'Tahoma', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: white;
+
+    padding:15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.botao:hover{
+    background-color:white;
+    color:black;
+}
+
+.botao i{
+    margin-right: 8px;
+
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+.caroosel-filmesx{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+
+
+/* rodape */
+.rodape{
+
+    color: rgb(99, 100, 100);
+    font-size: 12px;
+    
+   
+}
+.rodape a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+.rodape a:hover{
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+

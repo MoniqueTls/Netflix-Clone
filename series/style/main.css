@@ -1,0 +1,87 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+
+*{
+    margin: 1;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: var(--preta);
+   
+   
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a{
+    
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+header nav a:hover{
+    color: #fff;
+
+}
+
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+
+
+
+.caroosel-filmesx{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+
+}
+
+
+/* rodape */
+.rodape{
+
+    color: rgb(99, 100, 100);
+    font-size: 12px;
+    
+   
+}
+.rodape a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 10px;
+}
+
+
+.rodape a:hover{
+    color: #fff;
+
+}
+
+
+
+
